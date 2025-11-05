@@ -48,7 +48,7 @@ export function AboutUs() {
         >
           <h2 className="text-5xl lg:text-6xl font-bold mb-6">
             <span className="text-white">About </span>
-            <span className="bg-gradient-to-r from-[#87CEEB] via-[#FFD700] to-[#FF69B4] bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-[#FFE57F] via-[#FFD700] to-[#FFB800] bg-clip-text text-transparent">
               Us
             </span>
           </h2>
@@ -77,7 +77,7 @@ export function AboutUs() {
               deliver exceptional results for our clients.
             </p>
             <motion.button
-              className="mt-8 px-8 py-4 bg-gradient-to-r from-[#87CEEB] via-[#FFD700] to-[#FF69B4] text-black font-bold rounded-full hover:shadow-[0_0_20px_rgba(135,206,235,0.5)] transition-all duration-300"
+              className="mt-8 px-8 py-4 bg-gradient-to-r from-[#FFE57F] via-[#FFD700] to-[#FFB800] text-black font-bold rounded-full hover:shadow-[0_0_20px_rgba(255,229,127,0.5)] transition-all duration-300"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -120,7 +120,7 @@ export function AboutUs() {
                 >
                   <Icon size={32} style={{ color: stat.color }} />
                 </div>
-                <h4 className="text-4xl font-bold mb-2 bg-gradient-to-r from-[#87CEEB] via-[#FFD700] to-[#FF69B4] bg-clip-text text-transparent">
+                <h4 className="text-4xl font-bold mb-2 bg-gradient-to-r from-[#FFE57F] via-[#FFD700] to-[#FFB800] bg-clip-text text-transparent">
                   {stat.number}
                 </h4>
                 <p className="text-gray-400">{stat.label}</p>

@@ -42,7 +42,7 @@ export function ContactUs() {
         >
           <h2 className="text-5xl lg:text-6xl font-bold mb-6">
             <span className="text-white">Get in </span>
-            <span className="bg-gradient-to-r from-[#87CEEB] via-[#FFD700] to-[#FF69B4] bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-[#FFE57F] via-[#FFD700] to-[#FFB800] bg-clip-text text-transparent">
               Touch
             </span>
           </h2>
@@ -156,7 +156,7 @@ export function ContactUs() {
               <motion.button
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                className="w-full py-4 bg-gradient-to-r from-[#87CEEB] via-[#FFD700] to-[#FF69B4] text-black font-bold rounded-xl flex items-center justify-center gap-2 hover:shadow-[0_0_20px_rgba(135,206,235,0.5)] transition-all duration-300"
+                className="w-full py-4 bg-gradient-to-r from-[#FFE57F] via-[#FFD700] to-[#FFB800] text-black font-bold rounded-xl flex items-center justify-center gap-2 hover:shadow-[0_0_20px_rgba(255,229,127,0.5)] transition-all duration-300"
               >
                 Send Message
                 <SendIcon size={18} />

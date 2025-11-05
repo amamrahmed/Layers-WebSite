@@ -74,7 +74,7 @@ export function Navigation() {
     >
       {/* Scroll Progress Indicator */}
       <motion.div
-        className="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-[#87CEEB] via-[#FFD700] to-[#FF69B4] origin-left"
+        className="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-[#FFE57F] via-[#FFD700] to-[#FFB800] origin-left"
         style={{ scaleX }}
       />
 
@@ -106,7 +106,7 @@ export function Navigation() {
             >
               {link}
               <motion.span
-                className="absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#87CEEB] via-[#FFD700] to-[#FF69B4]"
+                className="absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#FFE57F] via-[#FFD700] to-[#FFB800]"
                 initial={{ width: "0%" }}
                 animate={{
                   width: activeSection === link.toLowerCase() ? "100%" : "0%",
@@ -120,7 +120,7 @@ export function Navigation() {
             </motion.a>
           ))}
           <motion.button
-            className="px-6 py-2.5 bg-gradient-to-r from-[#87CEEB] via-[#FFD700] to-[#FF69B4] text-black font-semibold rounded-full hover:shadow-[0_0_20px_rgba(135,206,235,0.5)] transition-all duration-300"
+            className="px-6 py-2.5 bg-gradient-to-r from-[#FFE57F] via-[#FFD700] to-[#FFB800] text-black font-semibold rounded-full hover:shadow-[0_0_20px_rgba(255,229,127,0.5)] transition-all duration-300"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
@@ -178,7 +178,7 @@ export function Navigation() {
             </motion.a>
           ))}
           <motion.button
-            className="mt-4 px-6 py-3 bg-gradient-to-r from-[#87CEEB] via-[#FFD700] to-[#FF69B4] text-black font-semibold rounded-full"
+            className="mt-4 px-6 py-3 bg-gradient-to-r from-[#FFE57F] via-[#FFD700] to-[#FFB800] text-black font-semibold rounded-full"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
