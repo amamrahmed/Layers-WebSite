@@ -16,7 +16,7 @@ const services = [
     title: "Brand Design",
     description:
       "Create unforgettable brand identities that resonate with your audience.",
-    color: "#FFE57F",
+    color: "#FFD700",
   },
   {
     icon: PrinterIcon,
@@ -30,14 +30,14 @@ const services = [
     title: "Digital Marketing",
     description:
       "Strategic campaigns that drive engagement and deliver measurable results.",
-    color: "#FFB800",
+    color: "#FFD700",
   },
   {
     icon: LayoutIcon,
     title: "Web Design",
     description:
       "Stunning, responsive websites that convert visitors into customers.",
-    color: "#FFE57F",
+    color: "#FFD700",
   },
   {
     icon: VideoIcon,
@@ -51,7 +51,7 @@ const services = [
     title: "Packaging Design",
     description:
       "Eye-catching packaging that makes your products stand out on shelves.",
-    color: "#FFB800",
+    color: "#FFD700",
   },
 ];
 
