@@ -14,19 +14,19 @@ export function ContactUs() {
       icon: MapPinIcon,
       title: "Visit Us",
       content: "123 Creative Street, Design District, NY 10001",
-      color: "#80DAFF",
+      color: "#87CEEB",
     },
     {
       icon: PhoneIcon,
       title: "Call Us",
       content: "+1 (555) 123-4567",
-      color: "#4DCBFF",
+      color: "#FFD700",
     },
     {
       icon: MailIcon,
       title: "Email Us",
       content: "hello@layers.com",
-      color: "#33C4FF",
+      color: "#FF69B4",
     },
   ];
 
@@ -42,7 +42,7 @@ export function ContactUs() {
         >
           <h2 className="text-5xl lg:text-6xl font-bold mb-6">
             <span className="text-white">Get in </span>
-            <span className="bg-gradient-to-r from-[#80DAFF] via-[#4DCBFF] to-[#33C4FF] bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-[#87CEEB] via-[#FFD700] to-[#FF69B4] bg-clip-text text-transparent">
               Touch
             </span>
           </h2>
@@ -156,7 +156,7 @@ export function ContactUs() {
               <motion.button
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                className="w-full py-4 bg-gradient-to-r from-[#80DAFF] via-[#4DCBFF] to-[#33C4FF] text-black font-bold rounded-xl flex items-center justify-center gap-2 hover:shadow-[0_0_20px_rgba(77,203,255,0.5)] transition-all duration-300"
+                className="w-full py-4 bg-gradient-to-r from-[#87CEEB] via-[#FFD700] to-[#FF69B4] text-black font-bold rounded-xl flex items-center justify-center gap-2 hover:shadow-[0_0_20px_rgba(135,206,235,0.5)] transition-all duration-300"
               >
                 Send Message
                 <SendIcon size={18} />

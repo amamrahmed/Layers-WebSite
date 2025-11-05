@@ -14,25 +14,25 @@ export function AboutUs() {
       icon: Users2Icon,
       number: "250+",
       label: "Happy Clients",
-      color: "#80DAFF",
+      color: "#87CEEB",
     },
     {
       icon: AwardIcon,
       number: "15+",
       label: "Years Experience",
-      color: "#4DCBFF",
+      color: "#FFD700",
     },
     {
       icon: RocketIcon,
       number: "500+",
       label: "Projects Completed",
-      color: "#33C4FF",
+      color: "#FF69B4",
     },
     {
       icon: HeartIcon,
       number: "100%",
       label: "Client Satisfaction",
-      color: "#4DCBFF",
+      color: "#87CEEB",
     },
   ];
 
@@ -48,7 +48,7 @@ export function AboutUs() {
         >
           <h2 className="text-5xl lg:text-6xl font-bold mb-6">
             <span className="text-white">About </span>
-            <span className="bg-gradient-to-r from-[#80DAFF] via-[#4DCBFF] to-[#33C4FF] bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-[#87CEEB] via-[#FFD700] to-[#FF69B4] bg-clip-text text-transparent">
               Us
             </span>
           </h2>
@@ -77,7 +77,7 @@ export function AboutUs() {
               deliver exceptional results for our clients.
             </p>
             <motion.button
-              className="mt-8 px-8 py-4 bg-gradient-to-r from-[#80DAFF] via-[#4DCBFF] to-[#33C4FF] text-black font-bold rounded-full hover:shadow-[0_0_20px_rgba(77,203,255,0.5)] transition-all duration-300"
+              className="mt-8 px-8 py-4 bg-gradient-to-r from-[#87CEEB] via-[#FFD700] to-[#FF69B4] text-black font-bold rounded-full hover:shadow-[0_0_20px_rgba(135,206,235,0.5)] transition-all duration-300"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -120,7 +120,7 @@ export function AboutUs() {
                 >
                   <Icon size={32} style={{ color: stat.color }} />
                 </div>
-                <h4 className="text-4xl font-bold mb-2 bg-gradient-to-r from-[#80DAFF] via-[#4DCBFF] to-[#33C4FF] bg-clip-text text-transparent">
+                <h4 className="text-4xl font-bold mb-2 bg-gradient-to-r from-[#87CEEB] via-[#FFD700] to-[#FF69B4] bg-clip-text text-transparent">
                   {stat.number}
                 </h4>
                 <p className="text-gray-400">{stat.label}</p>
