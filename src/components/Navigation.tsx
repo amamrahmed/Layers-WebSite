@@ -38,8 +38,17 @@ export function Navigation() {
       setIsScrolled(window.scrollY > 50);
 
       // Update active section with improved detection
-      const sections = ["services", "portfolio", "about", "contact"];
+      const sections = ["home", "services", "portfolio", "about", "contact"];
       const scrollPosition = window.scrollY + 300;
+
+      // Special case for home section
+      const servicesOffset =
+        document.getElementById("services")?.offsetTop ??
+        Number.POSITIVE_INFINITY;
+      if (scrollPosition < servicesOffset) {
+        setActiveSection("home");
+        return;
+      }
 
       for (const section of sections) {
         const element = document.getElementById(section);
@@ -62,7 +71,7 @@ export function Navigation() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [activeSection]);
 
-  const navLinks = ["Services", "Portfolio", "About", "Contact"];
+  const navLinks = ["Home", "Services", "Portfolio", "About", "Contact"];
 
   return (
     <nav
@@ -164,8 +173,8 @@ export function Navigation() {
               href={`#${link.toLowerCase()}`}
               className={`text-lg font-medium ${
                 activeSection === link.toLowerCase()
-                  ? "text-[#4DCBFF]"
-                  : "text-gray-300 hover:text-[#4DCBFF]"
+                  ? "text-[#FFD700]"
+                  : "text-gray-300 hover:text-[#FFD700]"
               } transition-colors`}
               onClick={(e) => {
                 smoothScroll(e, link.toLowerCase());

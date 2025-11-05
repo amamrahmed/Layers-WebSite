@@ -4,7 +4,10 @@ import { ArrowRightIcon, SparklesIcon } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+    <section
+      id="home"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20"
+    >
       <div className="absolute inset-0 overflow-hidden">
         <motion.div
           className="absolute top-20 left-10 w-64 h-64 bg-[#FFE57F]/10 rounded-full blur-3xl"
