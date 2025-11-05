@@ -93,7 +93,7 @@ export function Portfolio() {
             Explore our portfolio of award-winning projects
           </p>
         </motion.div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className=" grid flex-wrap md:grid-cols-2 lg:grid-cols-3 gap-5">
           {portfolioItems.map((item, index) => (
             <PortfolioCard
               key={item.id}
@@ -151,9 +151,9 @@ function PortfolioCard({ item, index, inView, y }: any) {
         duration: 0.6,
         delay: index * 0.1,
       }}
-      style={{
-        y: index % 2 === 0 ? y : undefined,
-      }}
+      // style={{
+      //   y: index % 2 === 0 ? y : undefined,
+      // }}
       className="group relative overflow-hidden rounded-2xl cursor-pointer"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
